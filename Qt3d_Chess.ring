@@ -89,20 +89,6 @@ func  MsgBlack(MSG)
 		   }
 
 
-//-------------------------------
-func RandomList(aInput)
-
-		   aOutput = []
-		   while len(aInput) > 1
-		      nIndex = random(len(aInput)-1)
-		      nIndex++
-		      aOutput = aInput[nIndex]
-		      del(aInput,nIndex)
-		   end
-		
-		return aOutput
-
-
 //--------------------------------
 func SayText(Text)
 
