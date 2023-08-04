@@ -42,6 +42,7 @@ Class Model3d
 					MEntity.addComponent(TextureMaterial)
 					MEntity.addComponent(Transform)
 
+                                        return self
 				
 		
 		//--------------------------------
